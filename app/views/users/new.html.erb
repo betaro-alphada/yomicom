@@ -1,0 +1,18 @@
+<meta charset="UTF-8">
+<title>プロトタイプ</title>
+  <link rel="stylesheet" href="//code.jquery.com/ui/1.11.4/themes/smoothness/jquery-ui.css">
+  <link href="//netdna.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/magic/1.1.0/magic.css" />
+
+
+<%= javascript_include_tag "application", media: "all", "deta-turbolinks-track" => true %>
+<%= stylesheet_link_tag "application", media: "all", "deta-turbolinks-track" => true %>
+
+<h1>New User</h1>
+<body style="border:ridge red 5px;">
+        <h1 style="color:black">クリックしてね</h1>
+        <div>　改行:Shift+Enter</div>
+        <%= link_to 'Back', users_path %>
+        <input name="authenticity_token" type="hidden" value="<%= form_authenticity_token %>" />
+</body>

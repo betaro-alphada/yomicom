@@ -1,0 +1,79 @@
+html {
+    height: 100%;
+    width: 100%;
+}
+
+body {
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    font-family: "メイリオ"
+}
+
+textarea{
+    border:1px solid;
+}
+
+.box{
+    position: relative;
+    border:1px solid;
+    padding-left: 30px;
+    height: 105px;
+    width: 300px;
+}
+
+.fa-window-close{
+    position: absolute;
+    right: 0px;
+    top: 0px;
+    color: red;
+    background-color: black;
+}
+
+.fa-eye-slash:not(.bodyEye),
+.fa-eye:not(.bodyEye){
+    position: absolute;
+    right: 0px;
+    bottom: 0px;
+    background-color: white;
+}
+
+span{
+    display: inline;
+    white-space: nowrap;
+}
+
+.Q-Comment{
+/*   border-left: 4px solid;
+    border-bottom: 4px solid;
+    border-color: green;*/
+    background-color: #8ED0E8;
+}
+
+.A-Comment{
+/*    border-left: 2px dashed;
+    border-bottom: 2px dashed;
+    border-color: brown;*/
+    background-color: #D4E5EC;
+}
+
+
+.fa-smile-o{
+    color: green;
+}
+
+.fa-exclamation{
+    color: red;
+}
+
+.fa-question{
+    color: blue;
+}
+
+.fa-heart{
+    color: red;
+}
+
+.fa-paper-plane-o{
+    background-color: #ffffff;
+}
